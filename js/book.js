@@ -1,4 +1,4 @@
-// search for fiending book 
+// search for finding book 
 const searchBook = () => {
     const getSearch = document.getElementById('search-field');
     const getText = getSearch.value;
