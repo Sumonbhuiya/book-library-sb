@@ -13,7 +13,7 @@ const searchBook = () => {
     }
     else {
         // get url 
-        const url = `http://openlibrary.org/search.json?q=${getText}`;
+        const url = `https://openlibrary.org/search.json?q=${getText}`;
         fetch(url)
             .then(res => res.json())
             .then(json => displaySearchResult(json));
